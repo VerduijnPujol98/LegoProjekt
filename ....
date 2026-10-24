@@ -1,0 +1,36 @@
+curl -i -X POST http://localhost:8080/pieces \
+  -H "Content-Type: application/json" \
+  -d '{
+    "color": "Red",
+    "type": {
+      "name": "Brick 2x4",
+      "shape": "RECTANGULAR",
+      "length": 4,
+      "width": 2
+    }
+  }'
+curl -i -X POST http://localhost:8080/pieces \
+  -H "Content-Type: application/json" \
+  -d '{
+    "color": "Red",
+    "type": {
+      "name": "Brick 2x4",
+      "shape": "RECTANGULAR",
+      "length": 4,
+      "width": 2
+    }
+  }'
+
+
+
+curl -i -X POST http://localhost:8080/pieces \
+  -H "Content-Type: application/json" \
+  -d '{
+    "color": "Red",
+    "type": {
+      "name": "Brick 2x4",
+      "shape": "RECTANGULAR",
+      "length": 4,
+      "width": 2
+    }
+  }'
