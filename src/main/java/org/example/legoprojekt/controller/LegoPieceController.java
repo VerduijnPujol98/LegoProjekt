@@ -29,7 +29,6 @@ public class LegoPieceController {
     throws InterruptedException, ExecutionException {
     DocumentReference docRef = db.collection("pieces").document();
     docRef.set(legoPiece);
-    pieces.add(legoPiece);
     return legoPiece;
     }
 

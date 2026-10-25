@@ -1,5 +1,6 @@
 package org.example.legoprojekt;
 
+import org.example.legoprojekt.model.LegoPieces;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
