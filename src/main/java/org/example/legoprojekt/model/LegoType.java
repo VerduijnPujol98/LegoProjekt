@@ -13,11 +13,23 @@ public class LegoType {
         this.width = width;
     }
 
+    public LegoType() {
+
+    }
+
     public String getName() {
         return name;
     }
 
     public String getShape() {
         return shape;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public int getWidth() {
+        return width;
     }
 }

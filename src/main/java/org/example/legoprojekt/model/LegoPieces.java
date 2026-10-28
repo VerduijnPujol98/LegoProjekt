@@ -5,9 +5,13 @@ public class LegoPieces {
     private LegoType type;
 
 
-    public LegoPieces(String color, LegoType type) {
+    public LegoPieces(String name, String color, LegoType type) {
         this.color = color;
         this.type = type;
+    }
+
+    public LegoPieces() {
+
     }
 
     public String getColor() {
@@ -17,4 +21,5 @@ public class LegoPieces {
     public LegoType getType() {
         return type;
     }
+
 }
